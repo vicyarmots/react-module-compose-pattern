@@ -1,4 +1,4 @@
-```
+
 # CounterWidget – Modular React Component with Compound Provider Pattern
 
 This project demonstrates a **modular, reusable, and scalable React component pattern** using **Compound Providers** and a **custom lightweight store**. It's ideal for self-contained features that need their own state management but don’t require a global state library.
