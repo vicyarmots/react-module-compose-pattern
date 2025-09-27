@@ -109,14 +109,6 @@ function App() {
 
 ---
 
-## **Trade-offs**
-
-- ⚠️ **Custom store limitations:** No middleware, devtools, or batching.
-- ⚠️ **TypeScript complexity:** Requires careful typing for generic components.
-- ⚠️ **Scaling issues:** For hundreds of stores, a global state manager might be more maintainable.
-- ⚠️ **Testing overhead:** Mocking store and context is required for isolated tests.
-- ⚠️ **Combining stores:** Spreading multiple stores can lead to overwrites or stale data if not managed carefully.
-
 ---
 
 ## **When to Use**
